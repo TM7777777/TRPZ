@@ -1,6 +1,6 @@
 import { DataSource } from "typeorm";
-import { Document } from "../DAL/Entities/Document";
-import { DocumentsRepository } from "../DAL/Repositories/Impl/DocumentsRepository";
+import { Document } from "../../DAL/Entities/Document";
+import { DocumentsRepository } from "../../DAL/Repositories/Impl/DocumentsRepository";
 import { dataSourceOptions } from "./common";
 
 describe("DocumentsRepository tests", () => {

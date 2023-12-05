@@ -1,7 +1,7 @@
 import { DataSource } from "typeorm";
-import { Candidate } from "../DAL/Entities/Candidate";
-import { CandidatesRepository } from "../DAL/Repositories/Impl/CandidatesRepository";
-import { dataSourceOptions } from "./common";
+import { Candidate } from "../../DAL/Entities/Candidate";
+import { CandidatesRepository } from "../../DAL/Repositories/Impl/CandidatesRepository";
+import { dataSourceOptions } from "../intergation/common";
 
 describe("CandidatesRepository tests", () => {
   let dataSource: DataSource;
